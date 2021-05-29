@@ -1,0 +1,36 @@
+.character-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.character-list__title {
+    text-align: center;
+}
+
+.character-list__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(#aaa, #ddd);
+    border-bottom: 1px solid #888;
+    align-items: center;
+}
+
+.character-item__image {
+    width: 100px;
+    height: 100px;
+}
+
+.character-item__name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.character-item__button {
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+    background-color: #eee;
+    border: none;
+}

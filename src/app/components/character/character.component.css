@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.character__back-button {
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+    display: inline;
+}
+
+.character__name {
+    font-size: 400%;
+    font-weight: 900;
+    margin-left: 1rem;
+}
+
+.character {
+    display: flex;
+    flex-direction: row;
+}
+
+.character__image {
+    width: 300px;
+    height: 450px;
+}
+
+.character__data {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.character__item {
+    font-weight: 900;
+    font-size: larger;
+    margin-bottom: 1rem;
+    border: 1px solid #333;
+    padding: 0.3rem;
+    background-color: #ccc;
+}
+
+.character__value {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.character__comic-list {
+    list-style-type: none;
+}

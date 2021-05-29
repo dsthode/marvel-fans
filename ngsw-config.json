@@ -1,0 +1,56 @@
+{
+  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js"
+        ]
+      }
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**",
+          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+        ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "marvel-images",
+      "urls": [
+        "http://i.annihil.us/u/prod/marvel/i/mg"
+      ],
+      "cacheConfig": {
+        "maxAge": "1h",
+        "maxSize": 10,
+        "strategy": "freshness",
+        "timeout": "2s"
+      }
+    },
+    {
+      "name": "marvel-data",
+      "urls": [
+        "http://gateway.marvel.com/v1/public/"
+      ],
+      "cacheConfig": {
+        "maxAge": "1h",
+        "maxSize": 10,
+        "strategy": "freshness",
+        "timeout": "2s"
+      }
+    }
+  ]
+}
