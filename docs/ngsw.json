@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1622307378880,
+  "timestamp": 1622368519391,
   "index": "/marvel-fans/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/marvel-fans/favicon.ico",
         "/marvel-fans/index.html",
-        "/marvel-fans/main.054ffa6eb5221c1ca21a.js",
+        "/marvel-fans/main.846a6ef1988541c19112.js",
         "/marvel-fans/manifest.webmanifest",
         "/marvel-fans/polyfills.00096ed7d93ed26ee6df.js",
         "/marvel-fans/runtime.7b63b9fd40098a2e8207.js",
@@ -111,8 +111,8 @@
     "/marvel-fans/fa-solid-900.c6ec080084769a6d8a34.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "/marvel-fans/fa-solid-900.efbd5d20e407bbf85f2b.eot": "b18bdd10beee0a20231aa4c9ea11e84a9307a4fd",
     "/marvel-fans/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/marvel-fans/index.html": "e7f1b1ca7a6c6b9d1bfb9532426c0ab6a9e46b30",
-    "/marvel-fans/main.054ffa6eb5221c1ca21a.js": "c9502b9f15012752491a13f40625baf181fc9564",
+    "/marvel-fans/index.html": "c6daeb5da4a96da1a736306ef7f599a9845122eb",
+    "/marvel-fans/main.846a6ef1988541c19112.js": "fb192c96c2791b753399d9d7b49b00bb8b459b75",
     "/marvel-fans/manifest.webmanifest": "7a31679fbff8949309b0fc92d5ecf1cb94c6b1fd",
     "/marvel-fans/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/marvel-fans/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",

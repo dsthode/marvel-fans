@@ -1,12 +1,10 @@
 <div class="container" *ngIf="character">
     <div class="name-row">
-        <button (click)="back()" class="character__back-button"><i class="fa fa-chevron-left"></i></button>
+        <button (click)="back()" class="character__back-button" aria-label="Back"><i class="fa fa-chevron-left"></i></button>
         <span class="character__name">{{character.name}}</span>
     </div>
     <div class="character">
-        <div class="character__image">
-            <img src="{{character.thumbnail.path}}/portrait_uncanny.{{character.thumbnail.extension}}">
-        </div>
+        <img class="character__image" alt="image of {{character.name}}" src="{{character.thumbnail.path}}/portrait_uncanny.{{character.thumbnail.extension}}">
         <div class="character__data">
             <p class="character__item">Description</p>
             <p class="character__value">{{character.description || 'No description'}}</p>

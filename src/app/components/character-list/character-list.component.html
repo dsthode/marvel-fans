@@ -1,13 +1,13 @@
 <div class="character-list" *ngIf="characters">
     <h1 class="character-list__title">Marvel Characters</h1>
     <div class="character-list__item" *ngFor="let item of characters">
-        <img class="character-item__image" src="{{item.thumbnail.path}}/standard_medium.{{item.thumbnail.extension}}">
+        <img class="character-item__image" alt="thumbnail of {{item.name}}" src="{{item.thumbnail.path}}/standard_medium.{{item.thumbnail.extension}}">
         <span class="character-item__name">{{item.name}}</span>
-        <button (click)="openCharacter(item.id)" class="character-item__button"><i class="fa fa-chevron-right"></i></button>
+        <button (click)="openCharacter(item.id)" class="character-item__button" aria-label="View character"><i class="fa fa-chevron-right"></i></button>
     </div>
     <div class="character-list__item">
-        <button (click)="previous()" class="character-item__button"><i class="fa fa-chevron-left"></i></button>
+        <button (click)="previous()" class="character-item__button" aria-label="Previous page"><i class="fa fa-chevron-left"></i></button>
         <span>Showing {{fromCharacters}}-{{toCharacters}} of {{totalCharacters}}</span>
-        <button (click)="next()" class="character-item__button"><i class="fa fa-chevron-right"></i></button>
+        <button (click)="next()" class="character-item__button" aria-label="Next page"><i class="fa fa-chevron-right"></i></button>
     </div>
 </div>

@@ -10,7 +10,7 @@ import { tap } from 'rxjs/operators';
 })
 export class CharacterService {
 
-  static SERVICE_URL = "https://gateway.marvel.com/v1/public/characters";
+  static SERVICE_URL = "http://gateway.marvel.com/v1/public/characters";
 
   constructor(private http: HttpClient) { }
 
